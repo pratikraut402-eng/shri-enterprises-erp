@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://shri-enterprises-erp-backend.onrender.com/api";
 
 function Stock() {
   const today = new Date().toISOString().split("T")[0];

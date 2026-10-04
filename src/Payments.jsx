@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://shri-enterprises-erp-backend.onrender.com/api";
 
 export default function Payments() {
   const [payments, setPayments] = useState([]);
@@ -1156,3 +1156,4 @@ const tdStyle = {
   borderBottom:
     "1px solid #f0f0f0",
 };
+

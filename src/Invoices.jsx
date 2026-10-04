@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://shri-enterprises-erp-backend.onrender.com/api";
 
 function emptyItem() {
   return {
@@ -3851,3 +3851,4 @@ const tdStyle = {
   verticalAlign:
     "middle",
 };
+

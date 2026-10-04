@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://shri-enterprises-erp-backend.onrender.com/api";
 
 export default function Customers() {
   const [customers, setCustomers] = useState([]);
@@ -858,3 +858,4 @@ const saveButton = {
   fontWeight: 700,
   cursor: "pointer",
 };
+
